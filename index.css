@@ -1,0 +1,12 @@
+.card-img-top {
+  height: 300px; /* Set the desired height */
+  object-fit: cover; /* Ensure the image covers the space without distortion */
+}
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
